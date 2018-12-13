@@ -1,0 +1,22 @@
+type Book {
+    id: Integer!
+    title: String!
+    description: String
+    author: Author!
+    price: Double!
+}
+
+
+type Author {
+    id: Integer!
+    name: String!
+}
+
+# The Root Query for the application
+type Query {
+    getBooks: [Book]
+}
+
+schema {
+    query: Query
+}
