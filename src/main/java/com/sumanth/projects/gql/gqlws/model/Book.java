@@ -5,6 +5,7 @@ public class Book {
     private Integer id;
     private String title;
     private String description;
+
     private Author author;
     private Double price;
 

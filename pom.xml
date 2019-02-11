@@ -47,21 +47,14 @@
 		<dependency>
 			<groupId>com.graphql-java</groupId>
 			<artifactId>graphql-java-tools</artifactId>
-			<version>5.2.4</version>
+			<version>5.2.3</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.graphql-java</groupId>
-			<artifactId>graphql-java-servlet</artifactId>
-			<version>5.2.0</version>
+			<artifactId>graphiql-spring-boot-starter</artifactId>
+			<version>5.0.2</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.graphql-java</groupId>
-			<artifactId>graphql-java</artifactId>
-			<version>6.0</version>
-		</dependency>
-
 
 
 

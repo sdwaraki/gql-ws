@@ -2,14 +2,18 @@ package com.sumanth.projects.gql.gqlws.repository;
 
 import com.sumanth.projects.gql.gqlws.model.Author;
 import com.sumanth.projects.gql.gqlws.model.Book;
+import org.springframework.stereotype.Component;
 
+import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class BookRepository {
 
     private final List<Book> books;
 
+    @Inject
     public BookRepository() {
         books = new ArrayList<>();
         Author author1 = new Author(1, "JK Rowling");
@@ -23,4 +27,5 @@ public class BookRepository {
     public List<Book> getBooks() {
         return books;
     }
+
 }

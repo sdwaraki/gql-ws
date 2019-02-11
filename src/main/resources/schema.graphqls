@@ -1,22 +1,18 @@
 type Book {
-    id: Integer!
+    id: Int!
     title: String!
     description: String
     author: Author!
-    price: Double!
+    price: Float!
 }
 
 
 type Author {
-    id: Integer!
+    id: Int!
     name: String!
 }
 
 # The Root Query for the application
 type Query {
     getBooks: [Book]
-}
-
-schema {
-    query: Query
 }
